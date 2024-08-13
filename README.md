@@ -11,6 +11,7 @@ TrendCrafter is an AI-driven project designed to identify and explore emerging t
 - Tasks: Defined objectives that guide the agents in their operations, ensuring each task has a clear goal and expected output.
 - Tools: External tools integrated into the agents' workflow to enhance their capabilities.
 
+
 ## 🗂️ Project Structure
 ```
 ├── __pycache__/ : Directory containing Python bytecode-compiled files for faster execution.
@@ -37,13 +38,19 @@ TrendCrafter is an AI-driven project designed to identify and explore emerging t
   pip install -r requirements.txt
 ```
 - Configure API Keys:<br><br>
-Enter appropriate API keys in the .env file
+Enter appropriate API keys in the .env file.<br>
+In this project gemini-1.5-flash LLM is used and Serper API is used for interacting with news
+To create API keys, please refer this sites:
+- https://aistudio.google.com/app/apikey
+- https://serper.dev/
+
 <br>
 
 - Run the Project:
 ```bash
   python crew.py
 ```
+
 
 ## 🛠️ Workflow
 ### 🤖 Agents
